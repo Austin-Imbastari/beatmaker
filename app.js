@@ -121,7 +121,6 @@ class Drumkit {
     updateTempo(e) {
         clearInterval(this.isPlaying);
         this.bpm = e.target.value;
-
         this.isPlaying = null;
         const playBtn = document.querySelector(".play");
         if (playBtn.classList.contains("active")) {

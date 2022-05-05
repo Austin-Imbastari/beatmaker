@@ -5,6 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Electrolize&family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -12,13 +18,18 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
-        <title>Beatmaker</title>
+        <title>BeatsbyImba</title>
     </head>
     <body>
         <div class="sequencer">
+            <div class="title">
+                <h2>beatsbyimba</h2>
+            </div>
             <div class="kick-track">
                 <div class="controls">
-                    <h1>Kick</h1>
+                    <div class="drum-title">
+                        <h1>Kick</h1>
+                    </div>
                     <button data-track="0" class="mute kick-volume">
                         <i class="fa-solid fa-volume-xmark"></i>
                     </button>
@@ -42,7 +53,9 @@
             </div>
             <div class="clap-track">
                 <div class="controls">
-                    <h1>Clap</h1>
+                    <div class="drum-title">
+                        <h1>Clap</h1>
+                    </div>
                     <button data-track="1" class="mute clap-volume">
                         <i class="fa-solid fa-volume-xmark"></i>
                     </button>
@@ -66,7 +79,9 @@
             </div>
             <div class="hat-track">
                 <div class="controls">
-                    <h1>Hat</h1>
+                    <div class="drum-title">
+                        <h1>Hat</h1>
+                    </div>
                     <button data-track="2" class="mute hat-volume">
                         <i class="fa-solid fa-volume-xmark"></i>
                     </button>
