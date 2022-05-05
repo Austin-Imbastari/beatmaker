@@ -44,13 +44,13 @@ svg {
 }
 
 .kick-pad.active {
-    background: #dd3649;
+    background: #d40c23;
 }
 .clap-pad.active {
-    background: #55e0bf;
+    background: #17ddaf;
 }
 .hat-pad.active {
-    background: #aa44dd93;
+    background: #9a1ada93;
 }
 
 .kick-track,
@@ -113,7 +113,40 @@ svg {
     margin-top: 3rem;
 }
 
+.mute.active {
+    background: #e7e5e5;
+    color: #000;
+}
+
 select {
     padding: 1rem;
     font-size: 1rem;
+}
+
+.tempo {
+    width: 30%;
+    margin: 3rem;
+}
+.tempo-slider {
+    padding: 0.1rem;
+    -webkit-appearance: none;
+    margin: 1rem 0rem;
+    width: 100%;
+    position: relative;
+    background: #aee5d8;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.tempo p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+@keyframes playTrack {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
 }

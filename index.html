@@ -19,7 +19,7 @@
             <div class="kick-track">
                 <div class="controls">
                     <h1>Kick</h1>
-                    <button data-track="0" class="'mute kick-volume">
+                    <button data-track="0" class="mute kick-volume">
                         <i class="fa-solid fa-volume-xmark"></i>
                     </button>
                     <select name="kick-select" id="kick-select">
@@ -43,7 +43,7 @@
             <div class="clap-track">
                 <div class="controls">
                     <h1>Clap</h1>
-                    <button data-track="0" class="'mute clap-volume">
+                    <button data-track="1" class="mute clap-volume">
                         <i class="fa-solid fa-volume-xmark"></i>
                     </button>
                     <select name="clap-select" id="clap-select">
@@ -67,7 +67,7 @@
             <div class="hat-track">
                 <div class="controls">
                     <h1>Hat</h1>
-                    <button data-track="0" class="'mute hat-volume">
+                    <button data-track="2" class="mute hat-volume">
                         <i class="fa-solid fa-volume-xmark"></i>
                     </button>
                     <select name="hat-select" id="hat-select">
@@ -91,7 +91,20 @@
             <div class="play-btn">
                 <button class="play">Play</button>
             </div>
+            <div class="tempo">
+                <input
+                    type="range"
+                    class="tempo-slider"
+                    max="300"
+                    min="20"
+                    value="150"
+                />
+                <p>Tempo: <span class="tempo-nr">130</span></p>
+            </div>
         </div>
+        <audio class="kick-sound" src="./sounds/kick1.wav"></audio>
+        <audio class="clap-sound" src="./sounds/clap1.wav"></audio>
+        <audio class="hat-sound" src="./sounds/hat1.wav"></audio>
         <script src="./app.js"></script>
     </body>
 </html>
