@@ -7,6 +7,7 @@ An application resembeling a drum machine with classic 909 house sounds
 - CSS3
 
 ## Live Demo
+<img width="1676" alt="Screen Shot 2022-05-04 at 8 14 16 PM" src="https://user-images.githubusercontent.com/55529532/166858843-221571c4-96be-49cc-ad01-d7462e774799.png">
 
 
 ## Features
